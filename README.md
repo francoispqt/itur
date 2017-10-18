@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/francoispqt/iter.svg?branch=master)](https://travis-ci.org/francoispqt/iter)
+[![Build Status](https://travis-ci.org/francoispqt/itur.svg?branch=master)](https://travis-ci.org/francoispqt/itur)
 [![codecov](https://codecov.io/gh/francoispqt/iter/branch/master/graph/badge.svg)](https://codecov.io/gh/francoispqt/iter)
 # Itur
 *Async made easy with generator control flow*
