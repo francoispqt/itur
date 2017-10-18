@@ -1,6 +1,6 @@
 {
   "name": "itur",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Async iterators made easy with generator control flow",
   "main": "lib/index.js",
   "directories": {
