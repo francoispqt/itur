@@ -3,7 +3,7 @@
 # Itur
 *Async made easy with generator control flow*
 ```bash
-$ npm i --save iter
+$ npm i --save itur
 ```
 ## Basic example
 ```javascript
@@ -85,4 +85,19 @@ for (const i of Itur.range(a, fn)) {
 }
 ```
 ### Chaining
+You can chain certain operations. Example: 
+```javascript
+const result = yield Itur.map([1,2,3], function*(key, value) {
+    return key + yield Promise.resolve(value)
+})
+.reduce(function*(agg, key, value) {
+    agg.push(yield Promise.resolve(value))
+    return agg
+}, [])
+.find(function*(key, value) {
+    return key === 1
+})
+
+console.log(result) // 3
+```
 ### Constructor syntax
