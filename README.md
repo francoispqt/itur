@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/francoispqt/iter.svg?branch=master)](https://travis-ci.org/francoispqt/iter)
+[![codecov](https://codecov.io/gh/francoispqt/iter/branch/master/graph/badge.svg)](https://codecov.io/gh/francoispqt/iter)
 # Iter
 *Async made easy*
 ```bash
