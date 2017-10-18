@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/francoispqt/iter.svg?branch=master)](https://travis-ci.org/francoispqt/iter)
 # Iter
 *Async made easy*
 ```bash
@@ -8,7 +9,7 @@ $ npm i --save iter
 const Iter = require('iter')
 
 const main = function*() {
-    const result = Iter.reduce([1,2,3], function*(agg, key, value){
+    const result = yield Iter.reduce([1,2,3], function*(agg, key, value){
         agg += yield Promise.resolve(value)
     }, 0)
 

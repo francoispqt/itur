@@ -8,19 +8,20 @@
     "test": "test"
   },
   "scripts": {
-    "test": "istanbul cover _mocha ./test/*.js",
+    "test": "istanbul cover _mocha ./test/*.js && codecov",
     "benchmark": "node benchmark/bluebird.js && node benchmark/iter.js && node benchmark/native.js"
   },
   "author": "francoispqt",
   "license": "MIT",
   "devDependencies": {
+    "bluebird": "^3.5.1",
     "chai": "^4.1.2",
+    "codecov": "^2.3.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
-    "prettier": "1.7.4",
-    "mocha": "^3.2.0",
     "istanbul": "0.4.5",
-    "bluebird": "^3.5.1",
+    "mocha": "^3.2.0",
+    "prettier": "1.7.4",
     "sinon": "^4.0.1"
   }
 }
