@@ -1,0 +1,26 @@
+{
+  "name": "iter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha ./test/*.js",
+    "benchmark": "node benchmark/bluebird.js && node benchmark/iter.js && node benchmark/native.js"
+  },
+  "author": "francoispqt",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "prettier": "1.7.4",
+    "mocha": "^3.2.0",
+    "istanbul": "0.4.5",
+    "bluebird": "^3.5.1",
+    "sinon": "^4.0.1"
+  }
+}
