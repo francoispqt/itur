@@ -1,5 +1,5 @@
 {
-  "name": "iter",
+  "name": "itur",
   "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
@@ -13,6 +13,10 @@
   },
   "author": "francoispqt",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francoispqt/itur.git"
+  },
   "devDependencies": {
     "bluebird": "^3.5.1",
     "chai": "^4.1.2",
